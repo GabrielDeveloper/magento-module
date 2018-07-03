@@ -1,5 +1,5 @@
 <_>
-   <form_key>A7LHyLeUeSg07GUG</form_key>
+   <form_key>bhO7SRycRdPEC66l</form_key>
    <name>Mundipagg_Integracao</name>
    <channel>community</channel>
    <version_ids>
@@ -27,11 +27,9 @@ IMPORTANTE
 Em qualquer procedimento de instalação ou update existem riscos, aconselhamos sempre criar backups de sua loja e efetuar qualquer procedimento em ambiente de desenvolvimento antes, nunca diretamente em produção. Não nos responsabilizamos por eventuais incidentes causados por negligenciar este alerta ou por uso de produtos ou serviços de terceiros.</description>
    <license>MIT</license>
    <license_uri/>
-   <version>2.15.07</version>
-   <stability>stable</stability>
-   <notes>- Add CI with CircleCI and Rancher
-- Fix table not found
-- Added MP on some history status</notes>
+   <version>2.15.07-hibrido</version>
+   <stability>devel</stability>
+   <notes>- Add log to change status</notes>
    <authors>
       <name>
          <name>mundipagg</name>
@@ -60,7 +58,7 @@ Em qualquer procedimento de instalação ou update existem riscos, aconselhamos 
             <max/>
          </max>
          <files>
-            <files>                                       </files>
+            <files>                                         </files>
          </files>
       </package>
       <extension>

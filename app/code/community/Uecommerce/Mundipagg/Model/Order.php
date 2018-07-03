@@ -12,10 +12,10 @@ class Uecommerce_Mundipagg_Model_Order extends Mage_Sales_Model_Order
 
     }
 
-    public function setState($state, $status = false, $comment = '', $isCustomerNotified = null)
+    protected function _setState($state, $status = false, $comment = '', $isCustomerNotified = null)
     {
         $this->logTrace($state, $status);
-        return $this->_setState($state, $status, $comment, $isCustomerNotified, true);
+        return parent::_setState($state, $status, $comment, $isCustomerNotified, true);
     }
 
 
